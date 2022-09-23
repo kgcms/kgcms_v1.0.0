@@ -1,0 +1,1 @@
+[{"name": "后台账号管理", "page": "admin_manage"}, {"name": "系统应用管理", "page": "app_manage"}, {"name": "系统全局设置", "page": "set_globals"}, {"name": "实时统计", "page": "web_statistics_record"}, {"name": "后台模块管理", "page": "adminpage_manage"}, {"name": "系统日志信息", "page": "log"}]

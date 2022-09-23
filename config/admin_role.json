@@ -1,0 +1,41 @@
+{
+  "admin": {
+      "title": "后台账号管理",  /* 模块页面名称 */
+      "associate": ["admin_manage", "admin_update"],  /* 关联页面 */
+      "permission": ["edit","delete","read"],  /* 允许设置的权限：read：查看, publish：发布, edit：编辑添加, delete：删除, clear：清空, audit：审核, recom：推荐, sort：排序, output：导出, public：公有 */
+  },
+  "app": {
+      "title": "系统应用管理",
+      "associate": ["app_manage", "app_update"],
+      "permission": ["edit","delete","read"],
+  },
+  "article": {
+      "title": "文章管理",
+      "associate": ["article_manage", "article_update"],
+      "permission": ["edit","publish","recom","audit","delete","read","clear"],
+  },
+  "category": {
+      "title": "栏目管理",
+      "associate": ["category_manage", "category_update"],
+      "permission": ["edit","delete","read"],
+  },
+  "role": {
+      "title": "角色管理",
+      "associate": ["role_manage", "role_update"],
+      "permission": ["edit","delete","read"],
+  },
+  "log": {
+      "title": "系统日志",
+      "associate": ["log"],
+      "permission": ["edit","delete","read","clear"],
+  },
+  "web_statistic": {
+      "title": "流量统计",
+      "associate": ["web_statistic","web_statistics_record","web_statistics_trend","web_statistics_visit","web_statistics_position","web_statistics_compare"],
+      "permission": ["delete","read","clear"],
+  },
+	
+
+
+
+}
